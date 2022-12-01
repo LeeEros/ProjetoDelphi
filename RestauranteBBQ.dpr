@@ -2,15 +2,15 @@ program RestauranteBBQ;
 
 uses
   Vcl.Forms,
-  Uprincipal in 'Uprincipal.pas' {FormTelaInicial},
-  UbancoDados in 'UbancoDados.pas' {DataModule1: TDataModule};
+  UnitPrincipal in 'UnitPrincipal.pas' {Form_principal},
+  UnitClientes in 'UnitClientes.pas' {Form_cad_cli};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TFormTelaInicial, FormTelaInicial);
-  Application.CreateForm(TDataModule1, DataModule1);
+  Application.CreateForm(TForm_principal, Form_principal);
+  Application.CreateForm(TForm_cad_cli, Form_cad_cli);
   Application.Run;
 end.

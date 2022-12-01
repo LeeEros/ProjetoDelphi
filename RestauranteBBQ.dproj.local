@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2022/11/26 16:58:34.000.983,=C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/11/26 16:59:35.000.505,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\Unit1.pas</Transaction>
-    <Transaction>2022/11/26 16:59:35.000.505,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\Unit1.dfm</Transaction>
-    <Transaction>2022/11/26 16:59:38.000.387,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\Project1.dproj</Transaction>
-    <Transaction>2022/11/26 17:25:42.000.508,=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Unit2.pas</Transaction>
-    <Transaction>2022/11/26 17:34:54.992,D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Uprincipal.dfm=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Unit1.dfm</Transaction>
-    <Transaction>2022/11/26 17:34:54.992,D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Uprincipal.pas=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Unit1.pas</Transaction>
-    <Transaction>2022/11/26 17:35:52.474,D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\UbancoDados.pas=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Unit2.pas</Transaction>
-    <Transaction>2022/11/26 17:35:52.474,D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\UbancoDados.dfm=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Unit2.dfm</Transaction>
-    <Transaction>2022/11/26 17:36:32.479,D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\RestauranteBBQ.dproj=D:\Documentos Faculdade\RADelphi\ProjetoRestaurante\ProjetoDelphi\Project1.dproj</Transaction>
+    <Transaction>2022/12/01 15:37:39.000.978,=C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/01 15:42:06.000.161,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Documentos Faculdade\RADelphi\ProjetoDelphi\UnitPrincipal.pas</Transaction>
+    <Transaction>2022/12/01 15:42:06.000.161,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\Documentos Faculdade\RADelphi\ProjetoDelphi\UnitPrincipal.dfm</Transaction>
+    <Transaction>2022/12/01 15:43:14.000.682,=C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/01 15:47:13.000.399,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Documentos Faculdade\RADelphi\ProjetoDelphi\UnitClientes.pas</Transaction>
+    <Transaction>2022/12/01 15:47:13.000.399,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\Documentos Faculdade\RADelphi\ProjetoDelphi\UnitClientes.dfm</Transaction>
+    <Transaction>2022/12/01 15:51:11.000.468,C:\Users\leeer\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Documentos Faculdade\RADelphi\ProjetoDelphi\Project1.dproj</Transaction>
+    <Transaction>2022/12/01 15:52:13.000.533,D:\Documentos Faculdade\RADelphi\ProjetoDelphi\Project1.dproj=D:\Documentos Faculdade\RADelphi\ProjetoDelphi\RestauranteBBQ.dproj</Transaction>
+    <Transaction>2022/12/01 16:05:44.000.789,D:\Documentos Faculdade\RADelphi\ProjetoDelphi\RestauranteBBQ.dproj=D:\Documentos Faculdade\RADelphi\ProjetoDelphi\RestauranteBBQ.dproj</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UnitPrincipal.pas"/>
+    <File Path="UnitPrincipal.dfm"/>
+    <File Path="UnitClientes.pas"/>
+    <File Path="UnitClientes.dfm"/>
+  </ProjectSortOrder>
 </BorlandProject>

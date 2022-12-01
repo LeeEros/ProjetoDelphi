@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{CA6ACFD6-3939-4F8A-B261-96F74659CF1F}</ProjectGuid>
+        <ProjectGuid>{DCA1E449-2F11-4BFA-A187-9FBBC39C69CF}</ProjectGuid>
         <ProjectVersion>19.2</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <Base>True</Base>
@@ -98,14 +98,13 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Uprincipal.pas">
-            <Form>FormTelaInicial</Form>
+        <DCCReference Include="UnitPrincipal.pas">
+            <Form>Form_principal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="UbancoDados.pas">
-            <Form>DataModule1</Form>
+        <DCCReference Include="UnitClientes.pas">
+            <Form>Form_cad_cli</Form>
             <FormType>dfm</FormType>
-            <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
