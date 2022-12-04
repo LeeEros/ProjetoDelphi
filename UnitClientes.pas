@@ -9,9 +9,22 @@ uses
 
 type
   TForm_cad_cli = class(TForm)
-    ImageLogo: TImage;
     MenuClientes: TMainMenu;
+    edtCliente: TEdit;
+    edtCpf: TEdit;
+    Label2: TLabel;
     Label1: TLabel;
+    Label3: TLabel;
+    Label5: TLabel;
+    cadastroCliente: TButton;
+    comboBoxPrato: TComboBox;
+    comboBoxDelivery: TComboBox;
+    Label4: TLabel;
+    comboBoxBebida: TComboBox;
+    Label6: TLabel;
+    CadastrodeProdutos1: TMenuItem;
+    procedure MenuInicial1Click(Sender: TObject);
+    procedure CadastrodeProdutos1Click(Sender: TObject);
   private
     { Private declarations }
 
@@ -25,8 +38,19 @@ var
 
 implementation
 
-  uses UnitPrincipal;
+  uses
+    UnitDatabase, UnitProdutos, UnitPrincipal;
 
 {$R *.dfm}
+
+procedure TForm_cad_cli.CadastrodeProdutos1Click(Sender: TObject);
+begin
+   Form_produtos.ShowModal;
+end;
+
+procedure TForm_cad_cli.MenuInicial1Click(Sender: TObject);
+begin
+   Form_principal.Show;
+end;
 
 end.

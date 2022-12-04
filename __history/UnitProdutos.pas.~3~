@@ -1,0 +1,36 @@
+unit UnitProdutos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
+  Vcl.Menus;
+
+type
+  TForm_produtos = class(TForm)
+    ImageLogo: TImage;
+    MainMenu1: TMainMenu;
+    CadastrodePedido1: TMenuItem;
+    procedure CadastrodePedido1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_produtos: TForm_produtos;
+
+implementation
+
+ Uses UnitPrincipal, UnitClientes;
+
+{$R *.dfm}
+
+procedure TForm_produtos.CadastrodePedido1Click(Sender: TObject);
+begin
+  Form_cad_cli.ShowModal;
+end;
+
+end.

@@ -25,6 +25,9 @@ var
 
 implementation
 
+Uses
+  UnitPrincipal, UnitClientes, UnitProdutos;
+
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 
 {$R *.dfm}

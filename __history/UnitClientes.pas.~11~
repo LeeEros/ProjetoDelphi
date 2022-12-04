@@ -1,0 +1,42 @@
+unit UnitClientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Menus,
+  Vcl.Imaging.pngimage, Vcl.StdCtrls;
+
+type
+  TForm_cad_cli = class(TForm)
+    MenuClientes: TMainMenu;
+    edtCliente: TEdit;
+    edtCpf: TEdit;
+    Label2: TLabel;
+    Label1: TLabel;
+    Label3: TLabel;
+    Label5: TLabel;
+    cadastroCliente: TButton;
+    comboBoxPrato: TComboBox;
+    comboBoxDelivery: TComboBox;
+    Label4: TLabel;
+    comboBoxBebida: TComboBox;
+    Label6: TLabel;
+  private
+    { Private declarations }
+
+  public
+    { Public declarations }
+
+  end;
+
+var
+  Form_cad_cli: TForm_cad_cli;
+
+implementation
+
+  uses UnitPrincipal, UnitProdutos;
+
+{$R *.dfm}
+
+end.

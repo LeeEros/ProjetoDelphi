@@ -528,5 +528,13 @@ object Form_principal: TForm_principal
       6082}
   end
   object MenuPrincipal: TMainMenu
+    object CadastrodePedidos1: TMenuItem
+      Caption = 'Cadastro de Pedidos'
+      OnClick = CadastrodePedidos1Click
+    end
+    object CadastrodeProdutos1: TMenuItem
+      Caption = 'Cadastro de Produtos'
+      OnClick = CadastrodeProdutos1Click
+    end
   end
 end
