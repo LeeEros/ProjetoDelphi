@@ -14,10 +14,10 @@ object DataConnection: TDataConnection
     Left = 160
     Top = 56
   end
-  object FDQueryCadCliente: TFDQuery
+  object FDQuery: TFDQuery
     Connection = FDConnection
-    Left = 88
-    Top = 200
+    Left = 296
+    Top = 56
   end
   object FDTableCadBebida: TFDTable
     Active = True
@@ -41,6 +41,11 @@ object DataConnection: TDataConnection
       Origin = 'valorBebida'
       Required = True
     end
+  end
+  object DSCadPrato: TDataSource
+    DataSet = FDTableCadPrato
+    Left = 224
+    Top = 192
   end
   object FDTableCadPrato: TFDTable
     Active = True
@@ -103,14 +108,14 @@ object DataConnection: TDataConnection
       Required = True
     end
   end
-  object FDQueryCadPrato: TFDQuery
-    Connection = FDConnection
-    Left = 224
-    Top = 200
+  object DSCadCliente: TDataSource
+    DataSet = FDTableCadCliente
+    Left = 88
+    Top = 192
   end
-  object FDQueryCadBebida: TFDQuery
-    Connection = FDConnection
+  object DSCadBebida: TDataSource
+    DataSet = FDTableCadBebida
     Left = 344
-    Top = 200
+    Top = 192
   end
 end

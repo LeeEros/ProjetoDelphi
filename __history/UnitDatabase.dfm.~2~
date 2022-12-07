@@ -1,0 +1,29 @@
+object DataConnection: TDataConnection
+  OldCreateOrder = False
+  Height = 341
+  Width = 467
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'Pooled='
+      'Database=restaurantebbq'
+      'User_Name=admin'
+      'Password=root'
+      'DriverID=MySQL')
+    Left = 72
+    Top = 208
+  end
+  object FDQuery: TFDQuery
+    Connection = FDConnection
+    Left = 176
+    Top = 208
+  end
+  object FDTable: TFDTable
+    Connection = FDConnection
+    Left = 264
+    Top = 208
+  end
+  object DataSource1: TDataSource
+    Left = 352
+    Top = 208
+  end
+end

@@ -13,24 +13,9 @@ uses
 type
   TDataConnection = class(TDataModule)
     FDConnection: TFDConnection;
-    FDQueryCadCliente: TFDQuery;
-    FDTableCadBebida: TFDTable;
-    FDTableCadPrato: TFDTable;
-    FDTableCadCliente: TFDTable;
-    FDTableCadClienteid: TFDAutoIncField;
-    FDTableCadClientenomeCliente: TStringField;
-    FDTableCadClientecpf: TIntegerField;
-    FDTableCadClientedelivery: TBooleanField;
-    FDTableCadClienteid_prato: TIntegerField;
-    FDTableCadClienteid_bebida: TIntegerField;
-    FDTableCadPratoid: TFDAutoIncField;
-    FDTableCadPratonomePrato: TStringField;
-    FDTableCadPratovalorPrato: TSingleField;
-    FDTableCadBebidaid: TFDAutoIncField;
-    FDTableCadBebidanomeBebida: TStringField;
-    FDTableCadBebidavalorBebida: TSingleField;
-    FDQueryCadPrato: TFDQuery;
-    FDQueryCadBebida: TFDQuery;
+    FDQuery: TFDQuery;
+    FDTable: TFDTable;
+    DataSource1: TDataSource;
   private
     { Private declarations }
   public

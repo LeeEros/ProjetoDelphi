@@ -1,0 +1,52 @@
+object DataConnection: TDataConnection
+  OldCreateOrder = False
+  Height = 341
+  Width = 467
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'Pooled='
+      'Database=restaurantebbq'
+      'User_Name=root'
+      'Server=127.0.0.1'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 160
+    Top = 56
+  end
+  object FDQuery: TFDQuery
+    Connection = FDConnection
+    Left = 296
+    Top = 56
+  end
+  object FDTableCadBebida: TFDTable
+    Connection = FDConnection
+    Left = 344
+    Top = 136
+  end
+  object DSCadPrato: TDataSource
+    DataSet = FDTableCadPrato
+    Left = 224
+    Top = 192
+  end
+  object FDTableCadPrato: TFDTable
+    Connection = FDConnection
+    Left = 224
+    Top = 136
+  end
+  object FDTableCadCliente: TFDTable
+    Connection = FDConnection
+    Left = 88
+    Top = 136
+  end
+  object DSCadCliente: TDataSource
+    DataSet = FDTableCadCliente
+    Left = 88
+    Top = 192
+  end
+  object DSCadBebida: TDataSource
+    DataSet = FDTableCadBebida
+    Left = 344
+    Top = 192
+  end
+end

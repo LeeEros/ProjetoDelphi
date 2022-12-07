@@ -13,10 +13,13 @@ uses
 type
   TDataConnection = class(TDataModule)
     FDConnection: TFDConnection;
-    FDQueryCadCliente: TFDQuery;
+    FDQuery: TFDQuery;
     FDTableCadBebida: TFDTable;
+    DSCadPrato: TDataSource;
     FDTableCadPrato: TFDTable;
     FDTableCadCliente: TFDTable;
+    DSCadCliente: TDataSource;
+    DSCadBebida: TDataSource;
     FDTableCadClienteid: TFDAutoIncField;
     FDTableCadClientenomeCliente: TStringField;
     FDTableCadClientecpf: TIntegerField;
@@ -29,8 +32,6 @@ type
     FDTableCadBebidaid: TFDAutoIncField;
     FDTableCadBebidanomeBebida: TStringField;
     FDTableCadBebidavalorBebida: TSingleField;
-    FDQueryCadPrato: TFDQuery;
-    FDQueryCadBebida: TFDQuery;
   private
     { Private declarations }
   public
