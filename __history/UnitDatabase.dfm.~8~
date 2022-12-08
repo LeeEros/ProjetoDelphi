@@ -1,0 +1,44 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 379
+  Width = 468
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'User_Name=root'
+      'Database=restaurantebbq'
+      'Server= 127.0.0.1'
+      'DriverID=MySQL')
+    Left = 152
+    Top = 64
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 96
+    Top = 224
+  end
+  object FDTable1: TFDTable
+    Connection = FDConnection1
+    Left = 96
+    Top = 160
+  end
+  object FDTable2: TFDTable
+    Connection = FDConnection1
+    Left = 224
+    Top = 160
+  end
+  object FDQuery2: TFDQuery
+    Connection = FDConnection1
+    Left = 224
+    Top = 224
+  end
+  object FDTable3: TFDTable
+    Connection = FDConnection1
+    Left = 336
+    Top = 160
+  end
+  object FDQuery3: TFDQuery
+    Connection = FDConnection1
+    Left = 336
+    Top = 224
+  end
+end

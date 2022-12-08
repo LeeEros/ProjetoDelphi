@@ -12,13 +12,13 @@ uses
 
 type
   TDataModule1 = class(TDataModule)
-    ConRestauranteBBQ: TFDConnection;
-    Querypedidoclientes: TFDQuery;
-    TBpedidoclientes: TFDTable;
-    TBcadastrobebida: TFDTable;
-    Querybebida: TFDQuery;
-    TBcadastroprato: TFDTable;
-    Queryprato: TFDQuery;
+    FDConnection1: TFDConnection;
+    FDQuery1: TFDQuery;
+    FDTable1: TFDTable;
+    FDTable2: TFDTable;
+    FDQuery2: TFDQuery;
+    FDTable3: TFDTable;
+    FDQuery3: TFDQuery;
   private
     { Private declarations }
   public
